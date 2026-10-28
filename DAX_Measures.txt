@@ -1,0 +1,9 @@
+01. Total Revenue = SUM(Fact_Amazon[TotalAmount])
+
+02. Total Quantity = SUM(Fact_Amazon[Quantity])
+
+03. Total Orders = DISTINCTCOUNT(Fact_Amazon[OrderID])
+
+04. Total Customers = DISTINCTCOUNT(Fact_Amazon[CustomerID])
+
+05. AOV = DIVIDE([Total Revenue], [Total Orders])
